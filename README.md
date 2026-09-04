@@ -30,4 +30,4 @@ Para ejecutar el proyecto es necesario tener instalado:
 git clone https://github.com/uleam-web-2026-2/webIB-Espinoza-Ponce.git
 
 ## Configuración de Base de Datos
-**URL de Supabase:** https://mwcvhhnyioybdwfscgtm.supabase.co/rest/v1/
+**URL de Supabase:** https://mwcvhhnyioybdwfscgtm.supabase.co
