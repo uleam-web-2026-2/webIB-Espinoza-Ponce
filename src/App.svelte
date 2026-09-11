@@ -1,33 +1,62 @@
-<div>
-  <p>Mesa de Ayuda - Tickets - Clientes - Reportes - Nuevo ticket</p>
-</div>
+<header>
+  <p>Nombre de la aplicación: <strong>Mesa de Ayuda</strong></p>
 
-<div>
-  <p>Bandeja de tickets</p>
-  <p>Agente: Mariela Zambrano - 6 tickets asignados</p>
-</div>
+  <p>Enlaces de navegación:</p>
+  <nav aria-label="Navegación principal">
+    <a href="/tickets">Tickets</a> ·
+    <a href="/clientes">Clientes</a> ·
+    <a href="/reportes">Reportes</a>
+  </nav>
 
-<div>
-  <p>Estado: Todos - Abierto - En progreso - En espera - Resuelto - Cerrado</p>
-  <p>Prioridad: Todas - Alta - Media - Baja</p>
-  <p>Buscar: Asunto o cliente</p>
-  <p>Aplicar filtros</p>
-</div>
+  <p>
+    Acción:
+    <a href="/tickets/nuevo">Nuevo ticket</a>
+  </p>
+</header>
 
-<div>
-  <p>Abiertos: 2 - En progreso: 2 - En espera: 1 - Resueltos: 1</p>
-</div>
+<main>
+  <h1>Bandeja de tickets</h1>
+  <p>Agente: Mariela Zambrano · 6 tickets asignados</p>
 
-<div>
-  <p>N° - Asunto - Cliente - Estado - Prioridad - Última actualización - Acción</p>
-  <p>1041 - No puedo iniciar sesión en el portal - Comercial Vélez - Abierto - Alta - hace 20 min - Ver</p>
-  <p>1038 - La factura electrónica no llega al correo - Ferretería El Progreso - En progreso - Media - hace 2 h - Ver</p>
-  <p>1035 - Error al exportar el reporte mensual - Distribuidora Manabí - En espera - Media - ayer - Ver</p>
-  <p>1031 - Solicitud de un usuario adicional - Clínica San Rafael - Abierto - Baja - ayer - Ver</p>
-  <p>1027 - Lentitud al cargar el inventario - Comercial Vélez - En progreso - Alta - hace 3 días - Ver</p>
-  <p>1019 - Cambio de RUC en la cuenta - Panadería Doña Luz - Resuelto - Baja - hace 5 días - Ver</p>
-</div>
+  <section aria-labelledby="titulo-filtros">
+    <h2 id="titulo-filtros">Filtros</h2>
 
-<div>
-  <p>Mesa de Ayuda - Proyecto docente 2026-2 - Última sincronización: hoy, 09:40</p>
-</div>
+    <form>
+      <p>
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+          <option>Todos</option>
+          <option>Abierto</option>
+          <option>En progreso</option>
+          <option>En espera</option>
+          <option>Resuelto</option>
+          <option>Cerrado</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="prioridad">Prioridad:</label>
+        <select id="prioridad" name="prioridad">
+          <option>Todas</option>
+          <option>Alta</option>
+          <option>Media</option>
+          <option>Baja</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="buscar">Buscar:</label>
+        <input
+          id="buscar"
+          name="buscar"
+          type="text"
+          placeholder="Asunto o cliente"
+        />
+      </p>
+
+      <p>
+        Acción:
+        <button type="submit">Aplicar filtros</button>
+      </p>
+    </form>
+  </section>
