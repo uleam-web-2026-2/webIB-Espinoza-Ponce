@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  td {
+    display: block;
+  }
+}

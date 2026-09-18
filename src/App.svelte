@@ -9,7 +9,6 @@
 
 <main>
   <h1>Mis tutoriales y su estado</h1>
-
   <table>
     <caption>Listado de tutoriales creados</caption>
 
@@ -43,7 +42,7 @@
       <tr>
         <td>Crear una base de datos en Supabase</td>
         <td>Bases de datos</td>
-        <td>Interactivo</td>
+        <td>Paso a paso</td>
         <td>Publicado</td>
         <td><a href="#">Ver</a></td>
       </tr>
