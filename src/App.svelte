@@ -1,7 +1,10 @@
+<script lang="ts">
+  import Formulario from './Formulario.svelte';
+</script>
+
 <header>
   <p>TutorHub</p>
-
-  <nav>
+  <nav aria-label="Principal">
     <a href="#">Tutoriales</a>
     <a href="#">Categorías</a>
   </nav>
@@ -48,4 +51,6 @@
       </tr>
     </tbody>
   </table>
+  <Formulario />
 </main>
+`
