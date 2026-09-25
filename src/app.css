@@ -27,3 +27,9 @@ input, select, textarea {
 button {
   padding: 0.75rem 1.5rem;
 }
+
+.mensaje-error {
+  color: #b3261e;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
